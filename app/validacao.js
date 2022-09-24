@@ -1,5 +1,5 @@
 function verificaSeOChutePossuiUmValorValido(chute) {
-    const numero = +chute
+    const numero = +chute;
 
     if (chuteForInvalido(numero)) {
         elementoChute.innerHTML += '<div>Valor inválido</div>'
@@ -36,7 +36,7 @@ function chuteForInvalido(numero) {
 }
 
 function numeroForMaiorOuMenorQueOValorPermitido(numero){
-    return numero > maiorValor || numero < menorValor
+    return numero > maiorValor || numero < menorValor;
 }
 
 document.body.addEventListener('click', e => {
