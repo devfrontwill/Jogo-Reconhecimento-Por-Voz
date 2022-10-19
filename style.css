@@ -51,4 +51,10 @@ h3 {
     background: var(--primary-color);
     border-radius: 5px;
     margin-top: 20px;
+    cursor: pointer;
+}
+
+#start {
+    color: black;
+    font-weight: 700;
 }
