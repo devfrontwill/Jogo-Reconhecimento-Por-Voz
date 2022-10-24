@@ -32,6 +32,13 @@ h3 {
     margin-top: 20px;
 }
 
+ul {
+    margin: 3.5rem 2rem 0 2rem;
+    font-weight: 600;
+    font-size: x-large;
+    font-style: italic;    
+}
+
 .mensagem {
     font-size: 1.5em;
     margin-top: 40px;
@@ -57,4 +64,5 @@ h3 {
 #start {
     color: black;
     font-weight: 700;
+    margin-bottom: 2rem;
 }

@@ -17,6 +17,13 @@ function verificaSeOChutePossuiUmValorValido(chute) {
         }
     }
 
+    if (chute.toUpperCase() === "RESTART") {
+        window.location.reload();        
+    }
+    else if (chute.toUpperCase() === "GO HOME") {
+        window.location.href = 'https://voice-command-game.vercel.app/guide'
+    }
+
 
     if (numeroForMaiorOuMenorQueOValorPermitido(numero)) {
         elementoChute.innerHTML += `
