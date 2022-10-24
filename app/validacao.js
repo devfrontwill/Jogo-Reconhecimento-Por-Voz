@@ -21,7 +21,7 @@ function verificaSeOChutePossuiUmValorValido(chute) {
         window.location.reload();        
     }
     else if (chute.toUpperCase() === "GO HOME") {
-        window.location.href = 'https://voice-command-game.vercel.app/guide'
+        window.location.href = 'https://voice-command-game.vercel.app/guide.html'
     }
 
 
